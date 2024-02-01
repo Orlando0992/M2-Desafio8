@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+}
+
+/*Codigo barra navegacion*/
+.titulo {
+        font-family: 'Lobster', sans-serif;
+        font-weight: 400;
+}
+
+.nav-list {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+}
+
+/*Codigo modificacion etiqueta "hr"*/
+.border-barra {
+    color: white;
+    opacity: 100;
+}
+
+.border-titulo {
+    width: 140px;
+    color: white;
+    opacity: 100;
+}
+
+/*Codigo tamaño texto*/
+.text-p{
+    font-size: 1.8em;
+}
+
+/*Codigo suscripcion*/
+.seccion-suscripcion{
+    background-color: #DC3545;
+    color: #fff;
+}
+
+/*Codigo pie de pagina*/
+footer{
+    background-color: #373A3C;
+    color: #fff;
+}
+
+/*Codigo ajuste pantalla*/
+@media only screen and (max-width: 322px){
+    .time-text{
+        font-size:0.8rem;
+    }
+    .btn-mail , .btn-favorito{
+        font-size: 0.6rem;
+    }
+    .text-receta{
+        font-size: 0.8rem;
+    }
+    .list-receta{
+        font-size: 0.8rem;
+    }
+    .text-p{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
